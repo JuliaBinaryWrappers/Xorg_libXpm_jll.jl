@@ -1,0 +1,13 @@
+name = "Xorg_libXpm_jll"
+uuid = "1a3ddb2d-74e3-57f3-a27b-e9b16291b4f2"
+version = "3.5.13+0"
+
+[deps]
+X11_jll = "546b0b6d-9ca3-5ba2-8705-1bc1841d8479"
+Gettext_jll = "78b55507-aeef-58d4-861c-77aaff3498b1"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Xorg_xproto_jll = "46797783-dccc-5433-be59-056c4bde8513"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
