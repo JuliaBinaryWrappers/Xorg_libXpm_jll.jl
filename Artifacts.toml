@@ -1,89 +1,89 @@
 [[Xorg_libXpm]]
-arch = "aarch64"
-git-tree-sha1 = "405faebd78f213cde68492a98b4f15b36292dd36"
+arch = "armv7l"
+git-tree-sha1 = "3ec15145aa2cdfc35dc26aaa658f58ffbd499253"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXpm.download]]
+    sha256 = "cac57182def12b63f88dba4593de818fd46aad502793772ca3c2a12b235d7744"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.armv7l-linux-gnueabihf.tar.gz"
+[[Xorg_libXpm]]
+arch = "i686"
+git-tree-sha1 = "8bf6dd31b7f61a1cd0147956ad61af15331eb32b"
 libc = "musl"
 os = "linux"
 
     [[Xorg_libXpm.download]]
-    sha256 = "fd2097e5602093110b58de79b9648adc4ab324e07e39ffe4498bcd4ae4224035"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.aarch64-linux-musl.tar.gz"
+    sha256 = "da0626538672f8312ea43a846dcebb2811f8738f8765b1d2444282f021ce6d71"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.i686-linux-musl.tar.gz"
 [[Xorg_libXpm]]
 arch = "aarch64"
-git-tree-sha1 = "fe3800aefd0d81410fbdbd882b14affb1fa77eeb"
+git-tree-sha1 = "9b4aeb45106dbdf8d9679cfed05a0f49acc69a64"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXpm.download]]
-    sha256 = "427d4aa5298296b4edee7677915ade7d4195760162843de856a8957012356d44"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.aarch64-linux-gnu.tar.gz"
+    sha256 = "af019045c0026c3495012dad810950dddc38cb04c6e6a54ae28d999a94ae6512"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.aarch64-linux-gnu.tar.gz"
+[[Xorg_libXpm]]
+arch = "armv7l"
+git-tree-sha1 = "40c6c6011288fb6b40aec443cc5a8b7f9f3dafa7"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXpm.download]]
+    sha256 = "782c65b9adeb78d5452b61b1047feccddf2ce8462e20c2347558e366a0401602"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.armv7l-linux-musleabihf.tar.gz"
+[[Xorg_libXpm]]
+arch = "aarch64"
+git-tree-sha1 = "9f4fe6322f509e4d04c985c4c1beb1100a4d2258"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXpm.download]]
+    sha256 = "ddf92f281fc665fb50fbced0626cfa2af64ce3d15a4998a5de091ebeae624452"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.aarch64-linux-musl.tar.gz"
 [[Xorg_libXpm]]
 arch = "x86_64"
-git-tree-sha1 = "f39fb068728fc192a36e331c95e6fc796ce7a843"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXpm.download]]
-    sha256 = "561e269ced3997607607eff75ba199264f36d47f362e5d217155d8472593b133"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.x86_64-linux-gnu.tar.gz"
-[[Xorg_libXpm]]
-arch = "powerpc64le"
-git-tree-sha1 = "f0374c6ca8bde56960662a75c91e875bf69bc453"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXpm.download]]
-    sha256 = "48015a3c17c6631cbd3fb914e5e036616389b5df29cab3815d0e332ddffb06e3"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.powerpc64le-linux-gnu.tar.gz"
-[[Xorg_libXpm]]
-arch = "x86_64"
-git-tree-sha1 = "00fb374b8adfde7ae40f03997ead62b7dc7c5e91"
+git-tree-sha1 = "937279c0f70860d79e808fa10a2410f763f22760"
 os = "freebsd"
 
     [[Xorg_libXpm.download]]
-    sha256 = "b533b240f3a514b002b5874593c53f95ccb96395ca744d946d492b718050b221"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "b73bbb178dbcb55a5a6756e77d3e725410dacb6bb550a1af7c7a2185d14b78e2"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.x86_64-unknown-freebsd11.1.tar.gz"
 [[Xorg_libXpm]]
 arch = "i686"
-git-tree-sha1 = "2efb7517473e53582f2bd938db90d451b55701fb"
+git-tree-sha1 = "1e1b37695a3c3bee37130429e95dee96d6fa07ae"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXpm.download]]
-    sha256 = "20f8ecbf280bfa93c8629dff666c392396fbb827415376f60f1310b4d9cb5603"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.i686-linux-gnu.tar.gz"
-[[Xorg_libXpm]]
-arch = "i686"
-git-tree-sha1 = "61d683a84bdbcd51680a171b3bde5e529e4572b8"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXpm.download]]
-    sha256 = "dd62afcc9a7c8b48efcecd7d38db456e0dc6c735d53fef4ebe96558e403f8c60"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.i686-linux-musl.tar.gz"
-[[Xorg_libXpm]]
-arch = "armv7l"
-git-tree-sha1 = "001c2c2cf04cd8394bab050c5004be06f9d6bd8c"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXpm.download]]
-    sha256 = "8f3f8930c0aba8a3a1eda8cca4280b725486e666c8db64d4e80a924c76878e06"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "6fa6508abe3ba3ad601901c8458c8bd5af224736b7880434581f0cf58802ad25"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.i686-linux-gnu.tar.gz"
 [[Xorg_libXpm]]
 arch = "x86_64"
-git-tree-sha1 = "e2825eeb0651d194d041ba5f8508da4cd5cf05d3"
+git-tree-sha1 = "a02e9de57cb23c618a2241de2005d9a3c0a46eda"
 libc = "musl"
 os = "linux"
 
     [[Xorg_libXpm.download]]
-    sha256 = "94b0ff2ea25f99b7c7871e740d04abc7bd367aab48b88bb2deb7d979cbfd4bbe"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.x86_64-linux-musl.tar.gz"
+    sha256 = "d3bc01855e6220581d67f562598c2a7e233682700759dbdc2f4a2008b3a79641"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.x86_64-linux-musl.tar.gz"
 [[Xorg_libXpm]]
-arch = "armv7l"
-git-tree-sha1 = "490d9aafe3d325100a4e3ef0ee0960e4d048aa78"
-libc = "musl"
+arch = "x86_64"
+git-tree-sha1 = "b7b1837330201e080ac0d66832978abf20e38bfb"
+libc = "glibc"
 os = "linux"
 
     [[Xorg_libXpm.download]]
-    sha256 = "961fc6d7a3c11cbd15a243cd01604dd00787cc03577bcd52557015c8601f575f"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+1/Xorg_libXpm.v3.5.13.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "8db26b0ba1e0f5665de48757db7fe0f0491b07c391eb038b72ef5d741f710f74"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.x86_64-linux-gnu.tar.gz"
+[[Xorg_libXpm]]
+arch = "powerpc64le"
+git-tree-sha1 = "a5486c40609c7eddbcac0f30ba410d0d81b33ac0"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXpm.download]]
+    sha256 = "2b972fbc03feb5bd7141d8db38cb872db077603775ed65665026113f57745a19"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXpm_jll.jl/releases/download/Xorg_libXpm-v3.5.13+2/Xorg_libXpm.v3.5.13.powerpc64le-linux-gnu.tar.gz"
