@@ -1,6 +1,6 @@
 name = "Xorg_libXpm_jll"
 uuid = "1a3ddb2d-74e3-57f3-a27b-e9b16291b4f2"
-version = "3.5.17+0"
+version = "3.5.18+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
